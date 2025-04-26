@@ -1,0 +1,96 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <!-- Meta tag viewport importante para responsividade -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Ornitorrinco</title>
+    <style>
+
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        background-color: saddlebrown;
+        /* Cor de fundo padrão */  
+    }
+
+    h1 {
+        color: #ffffff;
+        /* Unidade relativa para tamanho de fonte */
+        font-size: 2rem;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);   
+        font-family: 'Arial', sans-serif;
+        font-weight: bold;
+        /* Espaçamento responsivo */
+        padding: 20px 15px;
+    }
+
+    p {
+        color: #ffffff;
+        /* Unidade relativa para tamanho de fonte */
+        font-size: 1rem;
+        line-height: 1.6;
+        /* Padding relativo */
+        padding: 15px;
+        margin: 0 auto;
+        max-width: 800px;
+        background-color: rgba(0, 0, 0, 0.5);
+        border-radius: 10px;
+        backdrop-filter: blur(5px);
+        /* Largura relativa */
+        width: 90%;
+    }
+
+    img {
+        /* Imagem responsiva */
+        max-width: 100%;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+        padding: 10px;
+    }
+
+    /* Media Queries para dispositivos menores */
+    @media (max-width: 768px) {
+        h1 {
+            font-size: 1.5rem;
+            padding: 15px 10px;
+        }
+
+        p {
+            font-size: 0.9rem;
+            padding: 10px;
+            width: 95%;
+        }
+
+        body {
+            background-attachment: scroll; /* Melhor performance em mobile */
+        }
+    }
+
+    @media (max-width: 480px) {
+        h1 {
+            font-size: 1.2rem;
+        }
+
+        p {
+            line-height: 1.5;
+        }
+    }
+    
+</style>
+</head>
+
+<body style="text-align: center; background-image:url(tela-fundo.jpg); background-size: cover; background-repeat: no-repeat; background-attachment: fixed;">
+    <h1>Ornitorrinco</h1>
+    <img src="C:\Users\tokiz\Downloads\Ornitorrinco.webp">
+    <p>O ornitorrinco (Ornithorhynchus anatinus) é um mamífero semiaquático nativo da Austrália e Tasmânia, único representante vivo de sua família e gênero. Junto com as equidnas, forma o grupo dos monotremados, os únicos mamíferos que botam ovos. Tem hábitos crepusculares ou noturnos e se alimenta de crustáceos, insetos e vermes de água doce. Suas principais adaptações incluem membranas interdigitais, cauda semelhante à de castor e esporões venenosos nos machos. A fêmea incuba os ovos em ninhos e amamenta os filhotes por meio de poros na pele. Inicialmente considerado um embuste por suas características incomuns, hoje é um símbolo nacional da Austrália. Em 2008, seu genoma começou a ser sequenciado, revelando semelhanças genéticas com répteis, aves e outros mamíferos.
+    </p>
+</body>
+</html>
